@@ -1,5 +1,13 @@
 # Stable Diffusion WebUI Smart Pre-Processing Extension
-
+## NEW Feature!
+you can use recursive wildcard (**) for subfolder preserve processing
+'''
+src_path
+/home/user/jupyter/train_dataset/webtoon/**
+dst_path
+/home/user2/
+'''
+This will process all subdirectory files and preserve subfolder structure.
 ## What is this??
 
 As the name would imply, this is an extension for
